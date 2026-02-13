@@ -13,7 +13,7 @@ next_id = 4
 @app.route("/")
 def index():
     return """
-    <h1>FIU Campuses API</h1>"
+    <h1>FIU Campuses API</h1>
     <p> Try these endpoints:</p>
     <ul>
         <li><a href="/api/hello">/api/hello</a></li>
